@@ -14,13 +14,13 @@ import {
 import { Provider } from 'react-redux';
 import store from './store';
 
-import HelloRedux from './components/helloRedux/HelloRedux';
+import Map from './components/map/Map';
 
 export default class test extends Component {
    render() {
      return (
        <Provider store={store}>
-         <HelloRedux />
+         <Map />
        </Provider>
      );
    }
