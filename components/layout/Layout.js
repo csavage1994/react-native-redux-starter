@@ -18,8 +18,8 @@ class Layout extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Header style={styles.header}/>
-        <Map style={styles.map}/>
+        <Map style={styles.container}/>
+        <Header />
       </View>
     );
   }
@@ -27,15 +27,7 @@ class Layout extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'skyblue',
-  },
-  map: {
-    flex: 4,
-  },
-  head: {
+    flexDirection: 'row',
     flex: 1,
   },
 

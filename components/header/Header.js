@@ -15,9 +15,9 @@ class Header extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-         <Text>
-            Awooooooooo!
+      <View style={styles.test}>
+         <Text style={styles.container}>
+            Spotfinder
          </Text>
       </View>
     );
@@ -26,10 +26,17 @@ class Header extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    height: 50,
+    marginLeft: 10,
+    fontSize: 30,
+    color: 'white',
+  },
+  test: {
+    flexDirection: 'row',
     flex: 1,
-    justifyContent: 'center',
+    backgroundColor: 'blue',
+    height: 60,
     alignItems: 'center',
-    backgroundColor: 'skyblue',
   }
 });
 

@@ -14,13 +14,13 @@ import {
 import { Provider } from 'react-redux';
 import store from './store';
 
-import Map from './components/map/Map';
+import Layout from './components/layout/Layout';
 
 export default class test extends Component {
    render() {
      return (
        <Provider store={store}>
-         <Map />
+         <Layout />
        </Provider>
      );
    }
