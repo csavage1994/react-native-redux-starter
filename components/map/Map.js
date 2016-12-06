@@ -38,6 +38,7 @@ class Map extends Component {
 const styles = StyleSheet.create({
  container: {
    ...StyleSheet.absoluteFillObject,
+   bottom: 0,
    height: 400,
    width: 400,
    justifyContent: 'flex-end',
